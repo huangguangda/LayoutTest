@@ -1,44 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<AbsoluteLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
-   <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="90sp"
-        android:textColor="#000000"
-        android:gravity="right"
-        android:text="第一"/>
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="70sp"
-        android:textColor="#ffff00"
 
-        android:text="第二"/>
-
-    <!--<TextView
-        android:id="@+id/tv3"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dip"
-        android:textColor="#ff00ff"
-        android:layout_gravity="right"
-        android:text="第三层"/>-->
-    <!--<TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#00ffff"
-        android:layout_gravity="center_horizontal|bottom"
-        android:text="第四层"/>-->
-    <TextView
+        android:layout_x="50dp"
+        android:layout_y="50dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#00ffff"
-        android:layout_gravity="center_horizontal|bottom"
-        android:text="第四"/>
-</FrameLayout>
+        android:layout_x="100dp"
+        android:layout_y="100dp"
+        android:text="Button" />
+
+</AbsoluteLayout>
