@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="fill_parent"
-             android:layout_height="fill_parent"
-    >
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
    <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
+        android:textSize="90sp"
         android:textColor="#000000"
-        android:text="第一层"/>
+        android:gravity="right"
+        android:text="第一"/>
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="70sp"
         android:textColor="#ffff00"
-        android:text="第二层"/>
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#ff00ff"
-        android:text="第三层"/>
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#00ffff"
-        android:text="第四层"/>
+
+        android:text="第二"/>
 
     <!--<TextView
         android:id="@+id/tv3"
@@ -49,5 +40,5 @@
         android:textSize="20sp"
         android:textColor="#00ffff"
         android:layout_gravity="center_horizontal|bottom"
-        android:text="第四层"/>
+        android:text="第四"/>
 </FrameLayout>
